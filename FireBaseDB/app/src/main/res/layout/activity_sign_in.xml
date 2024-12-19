@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signin_screen"
+
+    tools:context=".SignIn">
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textColorHint="@android:color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etMail"
+            android:inputType="textEmailAddress"
+            android:layout_margin="20dp"
+            android:textColorHint="@android:color/black"
+            android:textColor="@android:color/black"
+            android:hint="Enter UniqueID" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColorHint="@android:color/black"
+        android:gravity="center"
+
+
+
+
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+
+            android:hint="Enter Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:backgroundTint="@color/yellow"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In" />
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "963848438760",
+    "project_id": "data-base-1b440",
+    "storage_bucket": "data-base-1b440.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963848438760:android:db67c081bf629d63d81a5d",
+        "android_client_info": {
+          "package_name": "com.sidhant.firebasedb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYZPd6cbnbLp2F0dQ8nevetleOMHvttD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
